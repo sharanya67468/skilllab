@@ -1,0 +1,111 @@
+body{
+     background-color: blue;
+}
+p{
+    background-color: brown;
+}
+/* universal selector
+ use the symbol * to select all the properties in the css file
+ *{
+ background -color :red;
+}
+ /*
+
+ /*element selector
+ p{
+ color :red;
+}
+ /*
+ /* class selector useus . operator
+ .c
+ {
+ color:orange;
+}
+
+
+ id selector we use the # and here the id name as sharanya
+ sharanya{
+  color :red;
+}
+*/
+#div1{
+    height:100px;
+    width:150px;
+    background-color: yellowgreen;
+    padding:5px;
+    margin:5px;
+    border:20px dashed black;
+    border-radius: 50%;
+    border-top-left-radius: 30% ;
+    border-bottom-left-radius: 30%;
+}
+#div2{
+    height:100px;
+    width:200px;
+    background-color: orange;
+    padding:5px;
+    margin:5px;
+    border:1px solid black;
+    border-radius: 50%;
+
+}
+/*syntax of css
+ selector{
+  property=value;
+}
+*/
+#div1:hover{
+    background-color:rgb(106, 37, 176);
+    box-shadow: 5px 5px 5px black;
+    border:10px double green;
+}
+
+#div2:hover{
+    background-color:rgb(19, 179, 80);
+    box-shadow: 5px 5px 5px rgb(199, 33, 33);
+    border:10px double rgb(24, 31, 174);
+}
+
+/* text trnasformation*/
+
+h1:hover{
+    text-transform: uppercase;
+    background-color: blanchedalmond;
+
+}
+
+body{
+     text-align:center ;
+     text-decoration: underline;
+     text-transform: capitalize;
+     text-shadow: 1px 1px 2px rgb(167, 149, 45);
+     background-image: url(animal.jpg);
+     background-repeat: repeat-x;
+     background-attachment: fixed;
+     backdrop-filter: blur(10px);
+     
+
+}
+
+/*marquee*/
+/*<marquee direction="scroll" direction="left"></marquee>
+*/
+
+#main{
+    align-items: center;
+    justify-items: center;
+    height:500px;
+    width: 200px;
+    background-color: rgb(75, 17, 220);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+

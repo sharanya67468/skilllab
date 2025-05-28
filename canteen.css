@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(34, 163, 167);
+}
+div{
+    height: 300px;
+    width:250px;
+    background-color: orange;
+    padding:100px;
+    margin:100px;
+    border:1px solid black;
+    
+}    
+
+}

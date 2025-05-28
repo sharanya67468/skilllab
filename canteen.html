@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canteen</title>
+    <link rel="stylesheet" href="canteen.css">
+
+</head>
+<body>
+    
+    <h1> welcome to canteen</h1>
+    <h2>menu</h2>
+    <div>
+    <label for="">idli[Rs:20]</label>
+    <input type="number"name=""  id="idli">
+    <label for="">dosa[Rs:40]</label>
+    <input type="number"name=""  id="dosa">
+    <label for="">uppit[Rs:30]</label>
+    <input type="number"name=""  id="uppi-2">
+    <label for="">poori[Rs:40]</label>
+    <input type="number"name=""  id="poori">
+    <label for="">ricebath[Rs:50]</label>
+    <input type="number"name=""  id="rice bath">
+    <label for="">ragimudde[Rs:20]</label>
+    <input type="number"name=""  id="ragi mudde">
+    <button onclick="bill()">submit</button>
+    </div>
+    <p id="res"> the total bill is</p>
+
+    <script>
+        function bill(){
+            var idli=document.getElementById("idli").value;
+            var dosa=document.getElementById("dosa").value;
+            var uppit=document.getElementById("uppi-2").value;
+            var poori=document.getElementById("poori").value;
+            var ricebath=document.getElementById("rice bath").value;
+            var ragimudde=document.getElementById("ragi mudde").value;
+            var total=(idli*20)+(dosa*40)+(uppit*30)+(poori*40)+(ricebath*50)+(ragimudde*20);
+            alert(total);
+            res.innerHTML="the total bill"+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(34, 163, 167);
+}
+body{
+     text-align:center ;
+     text-decoration: underline;
+     text-transform: capitalize;
+     text-shadow: 1px 1px 2px rgb(167, 149, 45);
+     background-image: url(img.jpg);
+     background-attachment: fixed;
+     backdrop-filter: blur(10px);
+     
+
+}
+
