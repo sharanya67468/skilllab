@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body style="background-color:  rgb(212, 119, 135);">
+    <h1>result predictor</h1>
+    <div>
+    <label for="">your name</label>
+    <input type="text" name="" id="uname">
+    <label for="">cursh name</label> 
+    <input type="text" name="" id="cname">
+    <button onclick="per()">check</button>
+    <p id="res"></p>
+    </div>
+    
+
+    <script>
+        function per(){
+         var uname=document.getElementById("uname").value;
+         var cname=document.getElementById("cname").value;
+          var per = Math.random()*100;
+          var res=document.getElementById("res");
+          res.innerHTML="the result  is"+per;
+        }
+    </script>
+    
+</body>
+</html>
